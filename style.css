@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+#padding{
+    background-color: red;
+    border: 5px double black;
+
+/* ctrl+; comenta todo selecionado */
+
+    /* padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 5px; */
+/* atalhos padding */
+    /* padding: 20px 10px 30px 5px; */
+    /* padding 20px 10px; */
+    /* padding 20px 10px 30px; */
+
+    /* padding-block:20px;
+    padding-inline: 30px; */
+    /*padding: 20px;*/
+}
+.caixas{
+    width: 150px;
+    height: 150px;
+}
+
+#interna {
+    background-color: blue;
+    width: 50px;
+    height: 50px;   
+}
+.margin {
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 15px; */
+     /* margin: 20px 10px 30px 5px; */
+    /* margin: 20px 10px; */
+    /* margin: 20px 10px 30px; */
+    /*margin: 20px;*/ 
+     margin-block:20px;
+    margin-inline: 30px; 
+    
+}
+
